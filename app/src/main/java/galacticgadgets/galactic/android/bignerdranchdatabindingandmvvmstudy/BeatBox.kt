@@ -22,6 +22,12 @@ class BeatBox(private val assets: AssetManager) {
         sounds = loadSounds()
     }
 
+    fun play(sound: Sound){
+        sound.soundId?.let{
+            soundPool.play(it, Math.random().toFloat()*2.0f, Math.random().toFloat()*2.0f, 1, 0, 1.0f)
+        }
+    }
+
     //get list of assets
     private fun loadSounds(): List<Sound> {
 
