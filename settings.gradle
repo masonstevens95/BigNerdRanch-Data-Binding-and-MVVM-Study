@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "BigNerdRanch Data Binding and MVVM Study"
