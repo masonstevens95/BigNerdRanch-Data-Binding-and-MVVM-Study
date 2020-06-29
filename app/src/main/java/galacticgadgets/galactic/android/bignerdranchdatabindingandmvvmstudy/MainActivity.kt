@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             RecyclerView.ViewHolder(binding.root){
 
         init{
-            binding.viewModel = SoundViewModel()
+            binding.viewModel = SoundViewModel(beatBox)
         }
 
         fun bind(sound: Sound) {
