@@ -24,7 +24,6 @@ class SoundViewModelTest {
 
     //endregion Constants
 
-
     //region Helper Fields
 
 

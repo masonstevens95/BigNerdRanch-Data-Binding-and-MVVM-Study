@@ -1,5 +1,7 @@
 package galacticgadgets.galactic.android.bignerdranchdatabindingandmvvmstudy
 
+import android.os.Debug
+import android.util.Log
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
 
